@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CalixtoStore.Core\CalixtoStore.Core.csproj" />
+    <ProjectReference Include="..\CalixtoStore.Vendas.Domain\CalixtoStore.Vendas.Domain.csproj" />
+  </ItemGroup>
+</Project>

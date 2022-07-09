@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\CalixtoStore.Catalogo.Database\CalixtoStore.Catalogo.Database.csproj" />
+		<ProjectReference Include="..\CalixtoStore.Catalogo.Domain\CalixtoStore.Catalogo.Domain.csproj" />
+		<ProjectReference Include="..\CalixtoStore.Vendas.Domain\CalixtoStore.Vendas.Domain.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AutoMapper" Version="10.1.1" />
+	</ItemGroup>
+</Project>
